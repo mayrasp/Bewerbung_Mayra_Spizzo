@@ -271,19 +271,19 @@ nav a {
 .sectOne {
     background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
     rgba(20, 20, 20, .4)),
-    url("Bewerbung_Mayra_Spizzo/img/volleyball1.jpg");
+    url("/Bewerbung_Mayra_Spizzo/img/volleyball1.jpg");
 }
 
 .sectOneMot {
     background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
     rgba(20, 20, 20, .4)),
-    url("Bewerbung_Mayra_Spizzo/img/volleyball3.jpg");
+    url("/Bewerbung_Mayra_Spizzo/img/volleyball3.jpg");
 }
 
 .sectOneZeug {
     background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
     rgba(20, 20, 20, .4)),
-    url("Bewerbung_Mayra_Spizzo/img/volleyball4.jpg");
+    url("/Bewerbung_Mayra_Spizzo/img/volleyball4.jpg");
 }
 
 .button{
@@ -346,11 +346,11 @@ nav a {
 .sectTwo {
     background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
     rgba(20, 20, 20, .4)),
-    url("Bewerbung_Mayra_Spizzo/img/Kantonalcup01.jpg");
+    url("/Bewerbung_Mayra_Spizzo/img/Kantonalcup01.jpg");
 }
 
 .sectThree {
-    background-image: url("Bewerbung_Mayra_Spizzo/img/img6.jpg");
+    background-image: url("/Bewerbung_Mayra_Spizzo/img/img6.jpg");
     color: #FFFFFF
 }
 
