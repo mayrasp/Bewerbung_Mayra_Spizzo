@@ -1,0 +1,517 @@
+.dc-chart g.row text {
+    fill: black;
+    font-size: 13px;
+}
+
+
+
+.dc-data-count small {
+    font-size: 16px;
+
+
+}
+
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #004D40;
+
+}
+
+
+
+.pie-chart {
+    height: 150px;
+
+
+}
+
+.dc-chart .axis text {
+    font-size: 12px;
+
+
+}
+
+text {
+    font-size: 16px;
+
+
+}
+
+
+
+#control-row {
+    padding-bottom: 20px;
+
+
+}
+
+.reset-filter {
+    cursor: pointer;
+}
+
+.TitelChart {
+    height: 50px;
+}
+
+/* ab hier für das herunterklappbare Feld "Beschreibung" */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.visible,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.visible:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+
+    {
+    margin: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: "lucida sans unicode";
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: arial black;
+    font-size: 50px;
+    color: #FFFFFF;
+    /*letter-spacing: 8px;*/
+}
+
+h2 {
+    font-family: arial black;
+    font-size: 40px;
+    color: black;
+    /*letter-spacing: 8px;*/
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: "lucida sans unicode";
+    font-size: 20px;
+    font-weight: 900;
+    color: black; /*vorher war #666 die Farbe*/
+    /*letter-spacing: 3px;*/
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-family: "lucida sans unicode";
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    margin-right: 260px;
+    padding: 6px 9px;
+    line-height: 27px;
+    background-color: rgb(255, 255, 255, .25);
+    text-align: center;
+}
+
+h4 {
+    font-family: "lucida sans unicode";
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+h6 {
+    font-family: "lucida sans unicode";
+    font-size: 24px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: left;
+
+
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1); /* bei letztem anstelle 1 .5 macht, dass transparent, ich glaube .85 ist noch gut*/
+    z-index: 99;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subSection {
+
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #FFFFFF;
+
+}
+
+.subSectionTwo {
+
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+
+    background-color: #FFFFFF;
+
+}
+
+.subSectionBlack {
+
+    margin: 0 auto;
+    background: black;
+    font-size: 24px;
+    color: #f9f9f9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 50px 80px;
+    background-color: black;
+
+}
+
+.sectOne {
+    background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
+    rgba(20, 20, 20, .4)),
+    url("/img/volleyball1.jpg");
+}
+
+.sectOneMot {
+    background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
+    rgba(20, 20, 20, .4)),
+    url("/img/volleyball3.jpg");
+}
+
+.sectOneZeug {
+    background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
+    rgba(20, 20, 20, .4)),
+    url("/img/volleyball4.jpg");
+}
+
+.button{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-family: "arial black";
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: yellow;
+}
+
+.button2{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-family: "arial black";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button2:hover{
+    background-color: yellow;
+}
+
+.Motivationsschreiben{
+    border-top: 12px solid #ddd;
+    border-left: 12px solid #ddd;
+    border-right: 12px solid #ddd;
+}
+
+.Legende{
+    background-color: #ddd;
+    text-align: right;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.Lebenslauf{
+    color: black;
+    border-collapse: separate;
+    border-spacing: 50 0px;
+    text-align: left;
+    width: 80%;
+    margin-left: 35%;
+}
+
+.sectTwo {
+    background-image: linear-gradient( rgba(20, 20, 20, .4), /*farbverlauf*/
+    rgba(20, 20, 20, .4)),
+    url("/img/Kantonalcup01.jpg");
+}
+
+.sectThree {
+    background-image: url("/img/img6.jpg");
+    color: #FFFFFF
+}
+
+.circleimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: no border;
+}
+
+table {
+    color: black;
+    border-collapse: separate;
+    border-spacing: 50 0px;
+}
+
+tr{
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+td {
+    text-align: block;
+   
+    
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #fff;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the left */
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: #F79F81;
+}
+
+/* Caption text */
+
+.text {
+    color: #666;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/4 etc) */
+
+.numbertext {
+    color: #F79F81;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #F79F81;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #FE642E;
+}
+
+/* Fading animation */
+
+.fader {
+    -webkit-animation: fader;
+    -webkit-animation-duration: 1.5s;
+    animation: fader;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fader {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fader {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media(max-width:648px) {
+    .tour-single .parallax-section--header {
+        height: 300px;
+    }
+}
