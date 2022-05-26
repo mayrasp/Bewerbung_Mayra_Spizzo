@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bewerbung Mayra Spizzo</title>
+
+
+    <link rel="stylesheet" href="css/dc.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+    </script>
+
+    <script src="js/d3.min.js"></script>
+    <script src="js/crossfilter.min.js"></script>
+    <script src="js/dc.js"></script>
+    <script src="js/underscore-min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+        $("document").ready(function() {
+
+            $("#sortable").sortable();
+            $("#sortable").disableSelection();
+            $("#control-row").sortable();
+            $("#control-row").disableSelection();
+            $("#control-row1").sortable();
+            $("#control-row1").disableSelection();
+            $("#control-row2").sortable();
+            $("#control-row2").disableSelection();
+        });
+
+    </script>
+
+
+</head>
+
+<body>
+
+   
+    <div style="height:40%;" class="section sectOneZeug">
+        <br/>
+        <h1 style="margin-bottom:0px;">Arbeitszeugnis</h1> <br/>
+        
+    </div>
+
+    <div style="height=100vh;" class="subSection">
+        
+        <iframe src="/Bewerbung-Mayra-Spizzo/data/Arbeitszeugnis_Mayra_Spizzo.pdf" width="600" height="1000"></iframe> <!-- bei width war 800  u dementsprechend heigt = 1300 noch gut-->
+         </div>
+    
+    <div style="text-align:left; font-size:16px;background-color:white;" class="Legende"><p style="color:black; margin-left: 25%;"><a href=index.html  style="color:black" ><font color="red">&#171;</font> zurück</a></p></div><br />
+        
+    <div class="subSectionBlack">
+        <p>Nützliche Links<br/>
+            <a href=/Bewerbung-Mayra-Spizzo/data/Bewerbungsdossier_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Bewerbungsdossier</a><br/>
+            <a href=/Bewerbung-Mayra-Spizzo/data/Motivationsschreiben_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Motivationsschreiben</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=/Bewerbung-Mayra-Spizzo/data/Lebenslauf_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Lebenslauf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/Bewerbung-Mayra-Spizzo/data/Maturit%C3%A4tsausweis_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Maturitätsausweis</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/Bewerbung-Mayra-Spizzo/data/Bachelordiplom_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Bachelordiplom</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/Bewerbung-Mayra-Spizzo/data/Studienblatt_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Studienblatt</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=/Bewerbung-Mayra-Spizzo/data/Arbeitszeugnis_Mayra_Spizzo.pdf target="_blank" style="text-decoration:underline;">Download Arbeitszeugnis</a><br/>
+            <a href=Motivationsschreiben.html style="text-decoration:underline;">Motivationsschreiben</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Maturit%C3%A4tsausweis.html style="text-decoration:underline;">Maturitätsausweis</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Bachelordiplom.html style="text-decoration:underline;">Bachelordiplom</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Studienblatt.html style="text-decoration:underline;">Studienblatt</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Arbeitszeugnis.html style="text-decoration:underline;">Arbeitszeugnis</a>
+        </p>
+        <p>Copyright © 2022 Mayra Nina Spizzo
+    </div>
+
+
+</body>
+
+</html>
